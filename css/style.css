@@ -1,0 +1,68 @@
+/* source-sans-3-regular - cyrillic_latin */
+@font-face {
+  font-display: swap;
+  /* Check https://developer.mozilla.org/en-US/docs/Web/CSS/@font-face/font-display for other options. */
+  font-family: 'Source Sans 3';
+  font-style: normal;
+  font-weight: 400;
+  src: url('../fonts/source-sans-3-v15-cyrillic_latin-regular.woff2') format('woff2');
+  /* Chrome 36+, Opera 23+, Firefox 39+, Safari 12+, iOS 10+ */
+}
+
+/* source-sans-3-600 - cyrillic_latin */
+@font-face {
+  font-display: swap;
+  /* Check https://developer.mozilla.org/en-US/docs/Web/CSS/@font-face/font-display for other options. */
+  font-family: 'Source Sans 3';
+  font-style: normal;
+  font-weight: 600;
+  src: url('../fonts/source-sans-3-v15-cyrillic_latin-600.woff2') format('woff2');
+  /* Chrome 36+, Opera 23+, Firefox 39+, Safari 12+, iOS 10+ */
+}
+
+/* source-sans-3-700 - cyrillic_latin */
+@font-face {
+  font-display: swap;
+  /* Check https://developer.mozilla.org/en-US/docs/Web/CSS/@font-face/font-display for other options. */
+  font-family: 'Source Sans 3';
+  font-style: normal;
+  font-weight: 700;
+  src: url('../fonts/source-sans-3-v15-cyrillic_latin-700.woff2') format('woff2');
+  /* Chrome 36+, Opera 23+, Firefox 39+, Safari 12+, iOS 10+ */
+}
+
+html {
+  box-sizing: border-box;
+}
+
+*,
+*::before,
+*::after {
+  box-sizing: inherit;
+}
+
+body {
+  font-family: 'Source Sans 3';
+  font-style: normal;
+  font-size: 16px;
+  /* line-height: 19.2px; */
+  font-weight: normal;
+  color: #333333;
+}
+
+
+
+
+/* Контейнер для картинок */
+.image-container {
+  display: flex;             /* Используем Flexbox */
+  justify-content: center;   /* Центрируем элементы по горизонтали */
+  align-items: center;       /* Центрируем элементы по вертикали */
+  gap: 20px;                 /* Задаем промежуток между картинками */
+}
+
+/* Картинки */
+.image-container img {
+  max-width: 100%;    /* Ограничиваем максимальную ширину */
+  height: auto;       /* Поддерживаем пропорции изображений */
+}

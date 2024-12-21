@@ -1,0 +1,28 @@
+/* Устанавливаем общий серый фон */
+body {
+    background-color: rgb(58, 255, 58);
+    margin: 0;
+    font-family: Arial, sans-serif;
+}
+
+/* Чёрная панель */
+.black-panel {
+    background-color: black; /* Чёрный цвет панели */
+    color: white; /* Белый текст */
+    padding: 20px; /* Отступы внутри панели */
+    margin: 20px auto; /* Автоматические отступы по горизонтали */
+    width: 99%; /* Ширина панели (можно настроить) */
+    border-radius: 10px; /* Слегка скруглённые углы */
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2); /* Тень для визуального эффекта */
+}
+
+/* Стили текста внутри панели */
+.black-panel h1 {
+    font-size: 2em;
+    margin-bottom: 10px;
+}
+
+.black-panel p {
+    font-size: 1.2em;
+    line-height: 1.5; /* Межстрочный интервал для удобства чтения */
+}

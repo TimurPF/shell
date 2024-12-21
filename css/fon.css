@@ -1,0 +1,10 @@
+/* fon.css */
+body {
+    background-color: rgb(221, 221, 221); /* Серый фон */
+    margin: 0;
+    font-family: Arial, sans-serif;
+}
+
+.centered-text {
+    text-align: center;
+}
